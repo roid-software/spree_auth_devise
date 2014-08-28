@@ -1,6 +1,6 @@
 class MakeUsersEmailIndexUnique < ActiveRecord::Migration
   def up
-    add_index "spree_users", ["email"], :name => "email_idx_unique", :unique => true
+    add_index "spree_users", ["email"], :name => "email_idx_unique"
   end
 
   def down
