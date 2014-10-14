@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: '2-3-stable'
+gem 'spree', github: 'roid-software/spree_baniyafy', branch: '2-3-stable'
 
 gemspec
